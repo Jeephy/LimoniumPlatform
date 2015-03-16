@@ -30,9 +30,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Limonium\email.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Limonium\Forms.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Limonium\models.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="Limonium\__init__.py" />
     <Compile Include="Limonium\views.py" />
+    <Compile Include="Test\test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Test\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Limonium\" />
@@ -41,6 +54,8 @@
     <Folder Include="Limonium\static\fonts\" />
     <Folder Include="Limonium\static\scripts\" />
     <Folder Include="Limonium\templates\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="Test\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Limonium\templates\regist.html" />

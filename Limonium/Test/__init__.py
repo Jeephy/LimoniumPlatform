@@ -2,13 +2,10 @@
 # -*- coding: <encoding utf-8> -*-  
 
 """
-The Limonium Solution initial ... .
+The Limonium Solution test initial ... .
 """
 
-
 from flask import Flask
-
 app = Flask(__name__)
 
-
-import Limonium.views
+import Test.views

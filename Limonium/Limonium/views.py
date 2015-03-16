@@ -1,8 +1,8 @@
-﻿#!\Python34\env Python
+﻿#!/usr/bin/env Python
 # -*- coding: <encoding utf-8> -*-  
 
 """
-Routes and views for the flask application.
+Routes and views for the Limonium application.
 """
 
 from datetime import datetime
